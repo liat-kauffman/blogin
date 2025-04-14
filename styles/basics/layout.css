@@ -1,0 +1,21 @@
+/* .main-layout {
+    display: grid;
+    grid-template-columns:
+        minmax(auto, 1fr) minmax(auto, 980px) minmax(auto, 1fr); 
+    grid-template-rows: minmax(130px, 1fr) auto; 
+    margin: 0;
+} */
+
+.main-layout>*:not(.full) {
+    grid-column: 2;
+}
+
+.main-layout>.full {
+    grid-column: 1 / -1;
+}
+
+
+.card-layout{
+    display: grid;
+    gap: 80px;
+}

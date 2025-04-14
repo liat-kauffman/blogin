@@ -1,0 +1,27 @@
+.main-nav .main-nav-list {
+    gap: 80px;
+    margin-inline-end: 295px;
+    font-size: 1em;
+}
+
+.main-nav .main-nav-list a{
+   
+    grid-column: 3;
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+
+    width: 130px;
+    height: 130px;
+
+}
+
+
+.main-nav a:hover{
+    color: green;
+    box-shadow: inset 0 -6 0 green;
+    
+
+}
+
+

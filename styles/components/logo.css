@@ -1,0 +1,12 @@
+.logo{
+    font-family: eurofurence , sans-serif;
+    font-size: 2.5em;
+}
+
+.main-logo{
+    grid-column: 2;
+}
+
+.logo span {
+    color: green;
+}

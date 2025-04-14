@@ -1,0 +1,45 @@
+
+
+/* .card {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 41px;
+
+    margin-top: 80px;
+  } */
+  
+  .card-image {
+    width: 431px;
+    height: 310px;
+    
+  }
+  
+  /* .card-details {
+    display: flex;
+    flex-direction: column;
+    grid-row: 2;
+    align-items: flex-start;
+    height: 100%;
+
+  } */
+  
+  .card-title {
+    font: bold 1rem 'Lato', sans-serif;
+  }
+  
+  /* .btn {
+    max-width: 186px;
+    max-height: 40px;
+    
+    margin-top: auto;
+    border-radius: 15px;
+    padding: 5px 15px;
+  
+  } */
+  .card-layout .card-btn{
+    margin-top: auto;
+    
+  }
+  .card-layout{
+    margin-top: 80px;
+  }

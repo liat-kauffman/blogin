@@ -1,0 +1,80 @@
+.page-nav .previous,
+.page-nav .next {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.page-nav{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 111px;
+    margin-bottom: 30px;
+    margin-inline-start: 40px;
+    margin-inline-end: 20px;
+    width: 90%;
+}
+
+.page-nav a {
+    position: relative; /* Needed for ::before and ::after absolute arrows */
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    display: inline-block;
+  }
+  
+
+
+.arrow-right:after {
+    top: 50%;
+    right: -20px;
+    position: absolute;
+    content: "";
+    display: inline-block !important;
+    width: 0;
+    height: 0;
+    border-left: 15px solid black;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    transform: translateY(-50%) scale(0.4);
+   }
+   
+   .arrow-right:before {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+   }
+
+   .arrow-left:after {
+    top: 50%;
+    left: -20px;
+    position: absolute;
+    content: "";
+    display: inline-block !important;
+    width: 0;
+    height: 0;
+    border-right: 15px solid black;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    transform: translateY(-50%) scale(0.4);
+}
+   
+   .arrow-left:before {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+   }
+   
+   

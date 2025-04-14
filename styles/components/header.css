@@ -1,0 +1,11 @@
+.main-header {
+    display: grid;
+    min-height: 130px;
+    width: 100%;
+    grid-template-columns: 1fr 400px 530px 1fr;
+    
+    
+    
+    background-color: black;
+    color: white;
+}
