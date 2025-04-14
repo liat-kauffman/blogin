@@ -33,10 +33,10 @@
 @media (width < 980px){
     .main-layout {
       margin: 0;
-      grid-template-columns: minmax(25px, 1fr) 430px minmax(25px, 1fr);
+      grid-template-columns: minmax(15px, 1fr) 430px minmax(15px, 1fr);
     }
   
-    .main-content{
+    .border{
       grid-column: 2;
     }
     .card {
@@ -79,11 +79,10 @@
 
     .page-nav {
       gap: auto;
+      margin-right: 20px;
     }
 
-    .right-arrow::after{
-        margin-right: auto;
-    }
+    
     
     .main-logo{
         margin-left: 10vw;

@@ -43,3 +43,11 @@
   .card-layout{
     margin-top: 80px;
   }
+
+  .card-title{
+    font-size: 28px;
+  }
+
+  .card-text{
+    font-size: 16px;
+  } 

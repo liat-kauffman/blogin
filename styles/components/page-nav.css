@@ -17,12 +17,12 @@
 }
 
 .page-nav a {
-    position: relative; /* Needed for ::before and ::after absolute arrows */
+    position: relative; 
     padding: 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
     color: inherit;
-    display: inline-block;
+    display: flex;
   }
   
 
